@@ -6,7 +6,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report
 import pickle
 #read our dataset using read_csv
-review = pd.read_csv(r"C:\Users\Lizieu Theres\OneDrive\Desktop\NLP2\reviews (1).csv")
+review = pd.read_csv(r"C:\Users\Lizieu Theres\OneDrive\Desktop\NLP2\reviews.csv")
 review = review.rename(columns={"text":"review"},inplace=False)
 review.head()
 
